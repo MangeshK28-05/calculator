@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+    <input id="num1" type="number" placeholder="1st number">
+    <input id="num2" type="number" placeholder="2nd number">
+    <select id="operation">
+        <option value="add">ADD</option>
+        <option value="subtract">SUBTRACT</option>
+        <option value="multiply">MULTIPLY</option>
+        <option value="divide">DIVIDE</option>
+    </select>
+    <button onclick="calculate()">CALCULATE</button>
+    <p id="result">RESULT :</p>
+</div>
+</body>
+</html>
